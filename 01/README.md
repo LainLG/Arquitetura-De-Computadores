@@ -4,7 +4,7 @@ Para el entendimento del proyecto lo primero es entender la logica en que se bas
 el algebra boooleana.
 Para ello primero presentaremos la leyes basicas de la algebra booleana.
 
-<image src="./Imagenes/algebra-booleana.png" alt="Propiedades de la algebra booleana">
+<image src="/Imagenes/algebra-booleana.png" alt="Propiedades de la algebra booleana">
 
 luego de entender como funciona la algebra boolena podemos ver las compuertas logicas y entender porque esta se pueden 
 definir por funciones logicas que esta regidas por la algebra booleana.
@@ -33,7 +33,7 @@ Para la compuerta AND, La salida estará en estado alto de tal manera que solo s
 
 Tabla de verdad y símbolo.
 
-<image src="./Imagenes/and.png" alt="Compuerta And">
+<image src="/Imagenes/and.png" alt="Compuerta And">
 
 
 ## Compuerta Or
@@ -46,7 +46,7 @@ la compuerta OR, la salida estará en estado alto cuando cualquier entrada o amb
 Tabla de verdad y símbolo.
 
 
-<image src="./Imagenes/or.png" alt="Compuerta Or">
+<image src="/Imagenes/or.png" alt="Compuerta Or">
 
 ## Compuerta Nand
 
@@ -58,7 +58,7 @@ Para la compuerta NAND, cuando las dos entradas estén en estado alto la salida 
 
 Tabla de verdad y símbolo.
 
-<image src="./Imagenes/nand.png" alt="Compuerta Nand">
+<image src="/Imagenes/nand.png" alt="Compuerta Nand">
 
 ## Compuerta Nor
 
@@ -69,7 +69,7 @@ En la compuerta NOR, cuando las dos entradas estén estado bajo la salida estar�
 
 Tabla de verdad y símbolo.
 
-<image src="./Imagenes/nor.png" alt="Compuerta Nor">
+<image src="/Imagenes/nor.png" alt="Compuerta Nor">
 
 ## Compuerta Xor
 
@@ -81,4 +81,4 @@ Q = A*B+A*B
 
 Tabla de verdad y símbolo.
 
-<image src="./Imagenes/xor.png" alt="Compuerta Xor">
+<image src="/Imagenes/xor.png" alt="Compuerta Xor">
