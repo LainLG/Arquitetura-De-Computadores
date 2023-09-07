@@ -4,7 +4,7 @@ Para el entendimento del proyecto lo primero es entender la logica en que se bas
 el algebra boooleana.
 Para ello primero presentaremos la leyes basicas de la algebra booleana.
 
-<image src="../Imagenes/algebra-booleana.png" alt="Propiedades de la algebra booleana">
+<image src="/Imagenes/algebra-booleana.png" alt="Propiedades de la algebra booleana">
 
 luego de entender como funciona la algebra boolena podemos ver las compuertas logicas y entender porque esta se pueden 
 definir por funciones logicas que esta regidas por la algebra booleana.
@@ -15,7 +15,7 @@ En la compuerta NOT, el estado de la salida es inversa a la entrada. Evidentemen
 
 ### Operación:
 
- Q = \bar{x}
+$ Q = \bar{x} $
 
 Tabla de verdad y símbolo
 
