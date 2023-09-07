@@ -93,7 +93,7 @@ Mostraremos el diagrama y la logica de las primeras compuertas logicas a realiza
 
 # Codigo
 
-## compuerta Not
+## Compuerta Not
 
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
