@@ -91,6 +91,9 @@ Mostraremos el diagrama y la logica de las primeras compuertas logicas a realiza
 
 <image src="/Imagenes/compuertas.jpg" alt="Compuertas">
 
+
+como podemos ver en la imagen podemos usar Morgan para convertir compuertas logicas a comuerta logicas Nand.
+
 # Codigo
 
 ## Compuerta Not
