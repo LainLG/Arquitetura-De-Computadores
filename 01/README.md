@@ -15,7 +15,7 @@ En la compuerta NOT, el estado de la salida es inversa a la entrada. Evidentemen
 
 ### Operación:
 
-$ Q = \bar{x} $
+$$ Q = \bar{x} $$
 
 Tabla de verdad y símbolo
 
