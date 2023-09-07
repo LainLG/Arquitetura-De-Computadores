@@ -2,8 +2,8 @@
 
 # Universidad Industrial de Santander 
 ## Grupo: E1
-## Profesor: Pablo Josue Rojas Yepes
+### Profesor: Pablo Josue Rojas Yepes
 
-## Estudiante:  Luigi Orlando Garcia Duarte
+### Estudiante:  Luigi Orlando Garcia Duarte
 
 <image src="./Imagenes/estudiante.jpg" alt="Foto del estudiante">

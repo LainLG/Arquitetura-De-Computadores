@@ -89,7 +89,7 @@ la cual el proyecto nos viene con dicha compuerta hecha.
 
 Mostraremos el diagrama y la logica de las primeras compuertas logicas a realizar.
 
-<image src="/Imagenes/compuertas.png" alt="Compuerta Xor">
+<image src="/Imagenes/compuertas.jpg" alt="Compuertas">
 
 # Codigo
 
