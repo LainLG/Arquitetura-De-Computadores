@@ -29,7 +29,7 @@ Para la compuerta AND, La salida estará en estado alto de tal manera que solo s
 
 ### Operación:
  
- Q = A * B
+$$ Q = A * B $$
 
 Tabla de verdad y símbolo.
 
@@ -41,7 +41,7 @@ Tabla de verdad y símbolo.
 la compuerta OR, la salida estará en estado alto cuando cualquier entrada o ambas estén en estado alto. De tal manera que sea una suma lógica.
 
 ### Operación
- Q = A + B
+$$ Q = A + B $$
 
 Tabla de verdad y símbolo.
 
@@ -54,7 +54,7 @@ Para la compuerta NAND, cuando las dos entradas estén en estado alto la salida 
 
 ### Operación
 
- Q= \bar{(A*B)}
+$$ Q= \bar{(A*B)} $$
 
 Tabla de verdad y símbolo.
 
@@ -65,7 +65,8 @@ Tabla de verdad y símbolo.
 En la compuerta NOR, cuando las dos entradas estén estado bajo la salida estará en estado alto. Esencialmente una OR negada.
 
 ### Operación
- Q= \bar{(A+B)}
+
+$$ Q= \bar{(A+B)} $$
 
 Tabla de verdad y símbolo.
 
@@ -77,8 +78,91 @@ La compuerta XOR Su salida estará en estado bajo cuando las dos entradas se enc
 
 ### Operación
 
-Q = A*B+A*B
+ $$ Q = A*B+A*B $$
 
 Tabla de verdad y símbolo.
 
 <image src="/Imagenes/xor.png" alt="Compuerta Xor">
+
+Una vez entendido estos conceptos podemos comenzar a realizar el Proyecto como dijimos toda compuerta logica se puede escribir solo usando compuertas Nand razon por
+la cual el proyecto nos viene con dicha compuerta hecha.
+
+Mostraremos el diagrama y la logica de las primeras compuertas logicas a realizar.
+
+<image src="/Imagenes/compuertas.png" alt="Compuerta Xor">
+
+# Codigo
+
+## compuerta Not
+
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/01/Not.hdl
+
+/**
+ * Not gate:
+ * out = not in
+ */
+
+CHIP Not {
+    IN in;
+    OUT out;
+
+    PARTS:
+    Nand( a= in , b = in , out = out);
+}
+
+## Compuerta And
+
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/01/And.hdl
+
+/**
+ * And gate: 
+ * out = 1 if (a == 1 and b == 1)
+ *       0 otherwise
+ */
+
+CHIP And {
+    IN a, b;
+    OUT out;
+
+    PARTS:
+
+    Nand(a = a, b = b ,out = out1 );
+    Not(in = out1 , out = out);
+}
+
+
+## Compuerta Or 
+
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/01/Or.hdl
+
+ /**
+ * Or gate:
+ * out = 1 if (a == 1 or b == 1)
+ *       0 otherwise
+ */
+
+CHIP Or {
+    IN a, b;
+    OUT out;
+
+    PARTS:
+    Not( in = a , out = out1);
+    Not( in = b , out = out2);
+    Nand(a = out1 , b = out2 , out = out);
+
+}
+
+
+Al finalizar el proyecto veremos y entenderemos porque toda compuerta logica se puede diseñar a partir de compuertas nand y que podemos utilizar
+compuertas ya definidas para realizar circuitos mas complejos.
+
+
