@@ -29,9 +29,11 @@ los numeros binarios se puede pasar al lenguaje humano el cual es el decimal o b
 
 la suma en numeros bidarios esta definida bajo la siguiente criterio
 
+```
 0 + 0 = 0 --> carry = 0
 0 + 1 = 1 --> carry = 0
 1 + 1 = 0 --> carry = 1
+```
 
 si al final de una suma binaria el carry = 1 se dice que hay overflow (desbordamiento) es decir supera la cantidad de bits
 con los que esta definido.
@@ -80,8 +82,10 @@ El bit menos significativo de la suma se define mediante el bit de 'suma'.
 
 ### La forma SOP de suma y acarreo es la siguiente:
 
+```
 Sum = x'y+xy'
 Carry = xy
+```
 
 ### Circuito Logico:
 
@@ -103,8 +107,10 @@ Nota: Podemos simplificar cada una de las 'funciones booleanas' de salida con la
 
 ### El formulario SOP se puede obtener con la ayuda de K-map como:
 
+```
 Sum = x' y' z+x' yz+xy' z'+xyz
 Carry = xy+xz+yz
+```
 
 <image src="/Imagenes/full-adder5.png" alt="Circuito_FullAdder">
 
