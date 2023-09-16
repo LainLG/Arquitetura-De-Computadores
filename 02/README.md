@@ -19,7 +19,11 @@ esta compuestos de solo dos posibles resultados ( 0 , 1 ) y tiene $$ 2^{n} n es 
 
 los numeros binarios se puede pasar al lenguaje humano el cual es el decimal o base 10 para ello se realiza la siguiente operacion sencilla
 
-$ (10101)_{2} = 1 \ast 2^{4} + 0 \ast 2^{3} + 1 \ast 2^{2} + 0 \ast 2^{1} + 1 \ast 2^{0} = 16 + 4 + 1 = (21)_{10} $
+```math
+
+(10101)_{2} = 1 \ast 2^{4} + 0 \ast 2^{3} + 1 \ast 2^{2} + 0 \ast 2^{1} + 1 \ast 2^{0} = 16 + 4 + 1 = (21)_{10}
+
+```
 
 ## Suma binario
 
@@ -121,7 +125,7 @@ entre valores (generalmente uno o dos) de los argumentos.
 
 ### SeudoCodigo del ALU
 
-<image src="/Imagenes/seudocofigo.png" alt="seudocodigo_alu">
+<image src="/Imagenes/seudocodigo.png" alt="seudocodigo_alu">
 
 ### Tabla De Verdad:
 
