@@ -1,0 +1,68 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/01/Mux16.hdl
+
+/**
+ * 16-bit multiplexor: 
+ * for i = 0..15 out[i] = a[i] if sel == 0 
+ *                        b[i] if sel == 1
+ */
+
+CHIP Mux16 {
+    IN a[16], b[16], sel;
+    OUT out[16];
+
+    PARTS:
+
+    Nand( a = sel , b = sel, out = nosel);
+    Nand( a = a[0] , b = nosel , out = out1);
+    Nand( a = sel , b = b[0] , out = out2);
+    Nand( a = out1 , b = out2 , out = out[0]);
+    Nand( a = a[1] , b = nosel , out = out3);
+    Nand( a = sel , b = b[1] , out = out4);
+    Nand( a = out3 , b = out4 , out = out[1]);
+    Nand( a = a[2] , b = nosel , out = out5);
+    Nand( a = sel , b = b[2] , out = out6);
+    Nand( a = out5 , b = out6 , out = out[2]);
+    Nand( a = a[3] , b = nosel , out = out7);
+    Nand( a = sel , b = b[3] , out = out8);
+    Nand( a = out7 , b = out8 , out = out[3]);
+    Nand( a = a[4] , b = nosel , out = out9);
+    Nand( a = sel , b = b[4] , out = out10);
+    Nand( a = out9 , b = out10 , out = out[4]);
+    Nand( a = a[5] , b = nosel , out = out11);
+    Nand( a = sel , b = b[5] , out = out12);
+    Nand( a = out11 , b = out12 , out = out[5]);
+    Nand( a = a[6] , b = nosel , out = out13);
+    Nand( a = sel , b = b[6] , out = out14);
+    Nand( a = out13 , b = out14 , out = out[6]);
+    Nand( a = a[7] , b = nosel , out = out15);
+    Nand( a = sel , b = b[7] , out = out16);
+    Nand( a = out15 , b = out16 , out = out[7]);
+    Nand( a = a[8] , b = nosel , out = out17);
+    Nand( a = sel , b = b[8] , out = out18);
+    Nand( a = out17 , b = out18 , out = out[8]);
+    Nand( a = a[9] , b = nosel , out = out19);
+    Nand( a = sel , b = b[9] , out = out20);
+    Nand( a = out19 , b = out20 , out = out[9]);
+    Nand( a = a[10] , b = nosel , out = out21);
+    Nand( a = sel , b = b[10] , out = out22);
+    Nand( a = out21 , b = out22 , out = out[10]);
+    Nand( a = a[11] , b = nosel , out = out23);
+    Nand( a = sel , b = b[11] , out = out24);
+    Nand( a = out23 , b = out24 , out = out[11]);
+    Nand( a = a[12] , b = nosel , out = out25);
+    Nand( a = sel , b = b[12] , out = out26);
+    Nand( a = out25 , b = out26 , out = out[12]);
+    Nand( a = a[13] , b = nosel , out = out27);
+    Nand( a = sel , b = b[13] , out = out28);
+    Nand( a = out27 , b = out28 , out = out[13]);
+    Nand( a = a[14] , b = nosel , out = out29);
+    Nand( a = sel , b = b[14] , out = out30);
+    Nand( a = out29 , b = out30 , out = out[14]);
+    Nand( a = a[15] , b = nosel , out = out31);
+    Nand( a = sel , b = b[15] , out = out32);
+    Nand( a = out31 , b = out32 , out = out[15]);
+
+}
