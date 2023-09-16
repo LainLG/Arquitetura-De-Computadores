@@ -8,14 +8,18 @@ En este proyecto se busca la creacion impementacion y entendimiento de los sigui
 
 ### Imcrementer
 
+### Adder
+
 ### ALU
+
+---
 
 para ello partiremos de la necesidad de definir el lenguaje que manejan estos dispositivos que es el binario como su nombre lo indica
 esta compuestos de solo dos posibles resultados ( 0 , 1 ) y tiene $$ 2^{n} n es un numero real positivo $$
 
 los numeros binarios se puede pasar al lenguaje humano el cual es el decimal o base 10 para ello se realiza la siguiente operacion sencilla
 
-$$ (10101)_{2} = 1\ast 2^{4} + 0\ast 2^{3} + 1\ast 2^{2} + 0\ast 2^{1} + 1\ast 2^{0} = 16 + 4 + 1 = (21)_{10} $$
+$$ (10101)_{2} = 1 \ast 2^{4} + 0 \ast 2^{3} + 1 \ast 2^{2} + 0 \ast 2^{1} + 1 \ast 2^{0} = 16 + 4 + 1 = (21)_{10} $$
 
 ## Suma binario
 
@@ -114,3 +118,15 @@ entre valores (generalmente uno o dos) de los argumentos.
 ### Diagrama de caja:
 
 <image src="/Imagenes/alu.png" alt="ALU">
+
+### SeudoCodigo del ALU
+
+<image src="/Imagenes/alu.png" alt="ALU">
+
+### Tabla De Verdad:
+
+<image src="/Imagenes/tabla_alu.png" alt="ALU">
+
+La tabla de verdad de ALU. En conjunto, las operaciones binarias codificadas por los primeros seis
+Las columnas efectúan la función enumerada en la columna de la derecha (usamos los símbolos !, & y | para representar los operadores Not, And y Or, respectivamente, realizados bit a bit). La ALU completa
+La tabla de verdad consta de sesenta y cuatro filas, de las cuales sólo las dieciocho presentadas aquí son de interés.
