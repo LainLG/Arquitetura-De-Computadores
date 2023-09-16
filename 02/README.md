@@ -15,7 +15,7 @@ En este proyecto se busca la creacion impementacion y entendimiento de los sigui
 ---
 
 para ello partiremos de la necesidad de definir el lenguaje que manejan estos dispositivos que es el binario como su nombre lo indica
-esta compuestos de solo dos posibles resultados ( 0 , 1 ) y tiene $$ 2^{n} n es un numero real positivo $$
+esta compuestos de solo dos posibles resultados ( 0 , 1 ) y tiene `math 2^{n}  ` n es un numero real positivo
 
 los numeros binarios se puede pasar al lenguaje humano el cual es el decimal o base 10 para ello se realiza la siguiente operacion sencilla
 
@@ -59,7 +59,7 @@ de manera mas facil la resta se puede hacer negando el numero y sumandole uno es
 
 ```math
 
- (10101)_{2} - (00101)_{2} = (10101)_{2} + (11010)_{2} --> (01111)_{2} + (00001)_{2} = (10000)\_{2}
+ (10101)_{2} - (00101)_{2} = (10101)_{2} + (11010)_{2} --> (01111)_{2} + (00001)_{2} = (10000)_{2}
 
 ```
 
