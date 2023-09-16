@@ -15,7 +15,7 @@ En este proyecto se busca la creacion impementacion y entendimiento de los sigui
 ---
 
 para ello partiremos de la necesidad de definir el lenguaje que manejan estos dispositivos que es el binario como su nombre lo indica
-esta compuestos de solo dos posibles resultados ( 0 , 1 ) y tiene $ 2^{n} $ n es un numero real positivo
+esta compuestos de solo dos posibles resultados ( 0 , 1 ) y tiene $` 2^{n} `$ n es un numero real positivo
 
 los numeros binarios se puede pasar al lenguaje humano el cual es el decimal o base 10 para ello se realiza la siguiente operacion sencilla
 
