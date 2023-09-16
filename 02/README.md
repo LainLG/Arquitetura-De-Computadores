@@ -49,11 +49,19 @@ para ello se han definido diferentes metodos en este caso aplicaremos el metodo 
 
 ### Ejemplo:
 
-$$ \left ( 10101 \right )_{2} - \left ( 00101 \right )_{2} = \left ( 10101 \right )_{2} + \left ( 2^{5} \right )_{10} - \left ( 5 \right )_{10} = \left ( 10101 \right )_{2} + \left ( 27 \right )_{10} = \left( 10101 \right )_{2} + \left ( 11011 \right )_{2} = \left ( 10000 \right )_{2} $$
+```math
+
+\left ( 10101 \right )_{2} - \left ( 00101 \right )_{2} = \left ( 10101 \right )_{2} + \left ( 2^{5} \right )_{10} - \left ( 5 \right )_{10} = \left ( 10101 \right )_{2} + \left ( 27 \right )_{10} = \left( 10101 \right )_{2} + \left ( 11011 \right )_{2} = \left ( 10000 \right )_{2}
+
+```
 
 de manera mas facil la resta se puede hacer negando el numero y sumandole uno es decir
 
-$$ (10101)_{2} - (00101)_{2} = (10101)_{2} + (11010)_{2} --> (01111)_{2} + (00001)_{2} = (10000)\_{2} $$
+```math
+
+ (10101)_{2} - (00101)_{2} = (10101)_{2} + (11010)_{2} --> (01111)_{2} + (00001)_{2} = (10000)\_{2}
+
+```
 
 Esto permite la simplificacion de los circuitos logicos ya que la resta se puede realizaro como sumas
 esto simplifica mucho permitiendo tener en un solo chip ALU toda las operaciones Aritmeticas y Logicas
