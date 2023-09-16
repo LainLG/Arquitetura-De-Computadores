@@ -80,8 +80,8 @@ El bit menos significativo de la suma se define mediante el bit de 'suma'.
 
 ### La forma SOP de suma y acarreo es la siguiente:
 
-Suma = x'y+xy'
-Llevar = xy
+Sum = x'y+xy'
+Carry = xy
 
 ### Circuito Logico:
 
@@ -103,21 +103,21 @@ Nota: Podemos simplificar cada una de las 'funciones booleanas' de salida con la
 
 ### El formulario SOP se puede obtener con la ayuda de K-map como:
 
-Suma = x' y' z+x' yz+xy' z'+xyz
-Llevar = xy+xz+yz
+Sum = x' y' z+x' yz+xy' z'+xyz
+Carry = xy+xz+yz
 
 <image src="/Imagenes/full-adder5.png" alt="Circuito_FullAdder">
 
 ## Adder16
 
-UN Adder de 16 bits es la coneciion de un HalfAdder y 15 FullAdder en cascada siendo este primero un HalfAder porque la primera ejecucion
+Un Adder de 16 bits es la coneciion de un HalfAdder y 15 FullAdder en cascada siendo este primero un HalfAder porque la primera ejecucion
 no lleva acarreo.
 
 <image src="/Imagenes/adder.png" alt="Adder">
 
 ## Inc16
 
-un Inc de 16 bits es un incrementador que tiene 16 entrada de datos donde la funcion de un incremtador es sumar uno al dato anterior es deciir
+Un Inc de 16 bits es un incrementador que tiene 16 entrada de datos donde la funcion de un incremtador es sumar uno al dato anterior es deciir
 out = x+1 donde out es la salida y x es el dato de entrada un incrementador se puede modelar facilmente con un adder de 16 bits
 
 ## ALU
