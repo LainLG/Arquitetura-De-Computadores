@@ -45,7 +45,7 @@ para ello se han definido diferentes metodos en este caso aplicaremos el metodo 
 
 ### Ejemplo:
 
-$$ (10101)_{2} - (00101)_{2} = (10101)_{2} + (2^{5})_{10} - (5)_{10} = (10101)_{2} + (27)_{10} = (10101)_{2} + (11011)_{2} = (10000)_{2} $$
+$$ \left ( 10101 \right )_{2} - \left ( 00101 \right )_{2} = \left ( 10101 \right )_{2} + \left ( 2^{5} \right )_{10} - \left ( 5 \right )_{10} = \left ( 10101 \right )_{2} + \left ( 27 \right )_{10} = \left( 10101 \right )_{2} + \left ( 11011 \right )_{2} = \left ( 10000 \right )_{2} $$
 
 de manera mas facil la resta se puede hacer negando el numero y sumandole uno es decir
 
@@ -121,11 +121,11 @@ entre valores (generalmente uno o dos) de los argumentos.
 
 ### SeudoCodigo del ALU
 
-<image src="/Imagenes/alu.png" alt="ALU">
+<image src="/Imagenes/seudocofigo.png" alt="seudocodigo_alu">
 
 ### Tabla De Verdad:
 
-<image src="/Imagenes/tabla_alu.png" alt="ALU">
+<image src="/Imagenes/tabla_alu.png" alt="tabla_de_verdad_alu">
 
 La tabla de verdad de ALU. En conjunto, las operaciones binarias codificadas por los primeros seis
 Las columnas efectúan la función enumerada en la columna de la derecha (usamos los símbolos !, & y | para representar los operadores Not, And y Or, respectivamente, realizados bit a bit). La ALU completa
