@@ -6,7 +6,7 @@ En este proyecto se busca la creacion impementacion y entendimiento de los sigui
 
 ### FullAdder
 
-### Imcrementer
+### Incrementer
 
 ### Adder
 
