@@ -56,7 +56,7 @@ para ello tenemos que utilizar un demultiplexor que se conecta n cantidad de reg
 
 ## Diagrama de Ram
 
-<image src="/Imagenes/ram.png" alt="ram">
+<image src="/Imagenes/registro.png" alt="ram">
 
 ### PC (counter).
 
