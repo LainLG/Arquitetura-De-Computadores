@@ -29,7 +29,7 @@ hay diferentes tipos de flip flops pero para este proyecto se usara el flips flo
 
 <image src="/Imagenes/dff.png" alt="dff">
 
-## Bit
+### Bit
 
 es el diseño mas simple que solo consta de un dff y un multiplexor.
 
@@ -37,7 +37,7 @@ es el diseño mas simple que solo consta de un dff y un multiplexor.
 
 <image src="/Imagenes/bit.png" alt="bit">
 
-## Register
+### Register
 
 Un registro es un dispositivo de almacenamiento que puede "almacenar" o "recordar" un valor.
 con el tiempo, este se puede modelar mediante la combiancion de varios bits.
@@ -64,6 +64,6 @@ Counter CHIP es algo que recuerda en qué línea de palabra/comando está trabaj
 
 Digamos que si comenzamos desde la línea 0 de la ROM (ubicación de memoria que guarda las instrucciones), en la mayoría de las situaciones nos gustaría ir a la línea 1 en el siguiente círculo, así podremos incrementar el contador cuando sea necesario. . También tenemos que crear algo que pueda obligar al contador a ir a una determinada línea, digamos 101, cuando el usuario así lo desee. entonces tenemos que obtener un bit de carga para indicarle al contador cuándo guardar datos y cambiar la salida de la siguiente ronda. Bueno, también tenemos que conseguir un bit de reinicio, que ponga el contador en 0 y permita que el sistema se reinicie.
 
-### Diagrama del PC (counter).
+## Diagrama del PC (counter).
 
 <image src="/Imagenes/pc.png" alt="pc_counter">
