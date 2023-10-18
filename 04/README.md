@@ -1,4 +1,4 @@
-# Proyecto 2: Lenguaje maquina
+# Proyecto 4: Lenguaje maquina
 
 En este proyecto se busca el entendimiento de los lenjuages de bajo nivel principalmente el lenguaje hack utilizada en el proyecto
 
