@@ -36,7 +36,7 @@ b) writeM: el bit de carga que decide si escribimos en la RAM o no.
 c) addressM: la ubicación de la ranura de RAM en la que queremos escribir.
 d) PC: contador de programa, puede tomar datos de 16 bits como entrada y tiene 3 bits de carga: inc, reset, load. este registro de PC decide qué línea de código procesar, y si reiniciamos la PC, todo el programa finalizará y volveremos a la línea 0.
 
-<image src="/Imagenes/project5_4.png">
+<image src="/Imagenes/projec5_4.png">
 
 Ahora podemos echar un vistazo más de cerca a todo el sistema de CPU.
 
